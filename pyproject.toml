@@ -1,0 +1,10 @@
+[project]
+name = "indodax-trading-bot"
+version = "1.0.0"
+description = "Bot Telegram untuk trading di Indodax"
+requires-python = ">=3.11"
+dependencies = [
+    "pytelegrambotapi>=4.29.1",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+]
